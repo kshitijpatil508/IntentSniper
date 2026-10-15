@@ -1,0 +1,17 @@
+{
+  "name": "intent-sniper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "IntentSniper - real-time social listening that flags high-intent buyers using TypeSafe Jev (Noul / Score / Choice) with calibrated confidence gating.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "ingest": "node scripts/ingest-once.js",
+    "selftest": "node scripts/selftest.js",
+    "check": "node scripts/check-all.js"
+  }
+}
